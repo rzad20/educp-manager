@@ -1,0 +1,23 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment & secrets
+.env
+.env.*
+config/env.php
+
+# Storage (log internal, uploads, dokumen)
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/documents/*
+!/storage/documents/.gitkeep
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
