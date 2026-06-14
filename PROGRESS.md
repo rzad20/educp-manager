@@ -6,7 +6,7 @@ Status legend: Not Started | In Progress | Review | Done | Blocked
 |------|------|--------|-------|--------|-------|---------|---------|-----------|
 | F0  | Inventory & Baseline Audit       | Done | Gemini | feature/fase-00-inventory-audit   | 2026-06-14 | 2026-06-14 | Audit baseline, mapping, dan bug candidates selesai | |
 | F1  | Route/Controller/View Stabilize  | Done | Codex  | feature/fase-01-route-stabilization | 2026-06-14 | 2026-06-14 | Route wajib guru terhubung; router memvalidasi controller/method; lint dan smoke test lulus | |
-| F2  | Auth/RBAC/Session/CSRF           | Not Started | Opus   | feature/fase-02-auth-rbac-csrf    | | | | |
+| F2  | Auth/RBAC/Session/CSRF           | Done   | Opus   | feature/fase-02-auth-rbac-csrf    | 2026-06-14 | 2026-06-14 | Session hardening: HttpOnly/SameSite/Secure; CSRF middleware; RBAC guard; rate limiting login; User model dengan PDO prepared statement; CONVENTIONS.md & ROUTE_MAP.md diupdate | |
 | F3  | Error Handling & Safety          | Not Started | Codex  | feature/fase-03-error-handling    | | | | |
 | F4  | Profil Sekolah & Tahun Ajaran    | Not Started | Codex  | feature/fase-04-school-profile    | | | | |
 | F5  | User/Guru/Siswa/Kelas/Mapel      | Not Started | Codex  | feature/fase-05-master-data       | | | | |
