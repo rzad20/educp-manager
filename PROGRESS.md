@@ -4,7 +4,7 @@ Status legend: Not Started | In Progress | Review | Done | Blocked
 
 | Fase | Nama | Status | Agent | Branch | Mulai | Selesai | Catatan | Commit/PR |
 |------|------|--------|-------|--------|-------|---------|---------|-----------|
-| F0  | Inventory & Baseline Audit       | Not Started | Gemini | feature/fase-00-inventory-audit   | | | | |
+| F0  | Inventory & Baseline Audit       | Done | Gemini | feature/fase-00-inventory-audit   | 2026-06-14 | 2026-06-14 | Audit baseline, mapping, dan bug candidates selesai | |
 | F1  | Route/Controller/View Stabilize  | Not Started | Codex  | feature/fase-01-route-stabilization | | | | |
 | F2  | Auth/RBAC/Session/CSRF           | Not Started | Opus   | feature/fase-02-auth-rbac-csrf    | | | | |
 | F3  | Error Handling & Safety          | Not Started | Codex  | feature/fase-03-error-handling    | | | | |
