@@ -30,5 +30,7 @@ $router->add('login', 'AuthController', 'showLogin');
 $router->add('login_submit', 'AuthController', 'login');
 $router->add('logout', 'AuthController', 'logout');
 $router->add('dashboard', 'DashboardController', 'index');
+$router->add('teacher_material_update', 'TeacherController', 'materialUpdate');
+$router->add('teacher_assignment_update', 'TeacherController', 'assignmentUpdate');
 
 $router->dispatch($page);
