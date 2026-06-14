@@ -30,6 +30,13 @@ class Router
         }
 
         require $file;
+
+        if (!class_exists($controller) || !method_exists($controller, $method)) {
+            http_response_code(404);
+            require BASE_PATH . '/app/views/errors/404.php';
+            return;
+        }
+
         $instance = new $controller();
         $instance->{$method}();
     }
